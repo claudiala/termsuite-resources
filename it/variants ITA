@@ -1,0 +1,411 @@
+S-I-NN-PA":
+  source: N N
+  target: N P A N
+  rule: s[0]==t[0] && s[1].stem==t[3].stem
+
+
+#################################
+#  NA  #
+#################################
+
+# pale eoliche || pale eoliche ausiliari
+"S-Ed-NA-A":
+  source: N A
+  target: N A A
+  rule: s[0]==t[0] && s[1]==t[1]
+
+
+# pale eoliche || pale eoliche ausiliari economiche
+"S-Ed-NA-AA":
+  source: N A
+  target: N A A A
+  rule: s[0]==t[0] && s[1]==t[1]
+
+
+# velocità  media/velocità media del vento
+"S-Ed-NA-PN":
+  source: N A
+  target: N A P N
+  rule: s[0]==t[0] && s[1]==t[1]
+
+
+# turbina eolica  / turbina eolica a  diretta trazione
+"S-Ed-NA-PAN":
+  source: N A
+  target: N A P A N
+  rule: s[0]==t[0] && s[1]==t[1]
+
+# turbina eolica / turbina eolica a trazione diretta
+"S-Ed-NA-PNA":
+  source: N A
+  target: N A P N A
+  rule: s[0]==t[0] && s[1]==t[1]
+
+
+# energia electrica - energia electrica più economica
+"S-Ed-NA-RA":
+  source: N A
+  target: N A R A
+  rule: s[0]==t[0] && s[1]==t[1]
+
+
+# fattores fisici - fattori fisici e geografici
+"S-Ed-NA-CA":
+  source: N A
+  target: N A C A
+  rule: s[0]==t[0] && s[1]==t[1]
+
+
+
+# # NOISY  Bizarre
+# "S-I-NA-PA":
+#   source: N A
+#   target: N P A N
+#   rule: s[0]==t[0] && s[1]==t[3]
+
+
+# perdita aerodinamica/entrata nella perdita aerodinamica
+"S-Eg-NA-NP":
+  source: N A
+  target: N P N A
+  rule: s[0]==t[2] && s[1]==t[3]
+
+
+# strumentazione necesaria || strumentazione tecnica neccessaria
+"S-I-NA-A":
+  source: N A
+  target: N A A
+  rule: s[0]==t[0] && s[1]==t[2]
+
+
+# carcinoma alveolare/carcinoma di cellule alveolari
+"S-I-NA-PN":
+  source: N A
+  target: N P N A
+  rule: s[0]==t[0] && s[1].stem==t[3].stem
+
+
+#condizione favorevole || condizione più favorevole
+"S-I-NA-R":
+  source: N A
+  target: N R A
+  rule: s[0]==t[0] && s[1]==t[2]
+
+
+
+# fattori geografici - fattori fisici e geografici
+"S-I-NA-AC":
+  source: N A
+  target: N A C A
+  rule: s[0]==t[0] && s[1]==t[3]
+
+
+#  PREDICATION    #
+# (la) montagna è rocciosa / montagna rocciosa
+"S-I-NA-V":
+  source: N V A
+  target: N A
+  rule: s[0]==t[0] && s[2]==t[1]
+# V: essere
+
+
+# terreno è irregulare o complicato / terreno complicato
+"S-I-NA-VAC":
+  source: N V A C A
+  target: N A
+  rule: s[0]==t[0] && s[4]==t[1]
+
+
+# # DOES NOT MATCH
+# "S-I-NA-CN":
+#   source: N A
+#   target: N C N A
+#   rule: s[0]==t[0] && s[1]==t[3]
+#
+#
+# # DOES NOT MATCH
+# "S-Eg-NA-NC":
+#   source: N A
+#   target: N C N A
+#   rule: s[0]==t[2] && s[1]==t[3]
+
+
+
+# terreno è irregolare o complicato / terreno irregolare
+"S-IEd-NA-V-CN":
+  source: N V A C A
+  target: N A
+  rule: s[0]==t[0] && s[2]==t[1]
+
+
+#################################
+#  AN  #
+#################################
+
+# gradevole sensazione / sgradevole sensazione
+"S-I-AN-CA":
+  source: A N
+  target: A C A N
+  rule: s[0]==t[0] && s[1]==t[3]
+
+
+# gradevole o sgradevole sensazione/ sgradevole sensazione
+"S-Eg-AN-AC":
+  source: A N
+  target: A C A N
+  rule: s[0]==t[2] && s[1]==t[3]
+
+
+
+#################################
+#  NPN  #
+#################################
+
+# verbale della riunione / verbale aggiornato della riunione
+# does not match NPDN - NAPDN
+"S-I1-NPN-A":
+  source: N P N
+  target: N A P N
+  rule: s[0]==t[0] && s[1]==t[2] && s[2]==t[3]
+
+
+# funzionamento a batteria/funzionamento con attivazione di batterie
+"S-I1-NPN-PN":
+  source: N P N
+  target: N P N P N
+  rule: s[0]==t[0] && s[1]==t[3] && s[2]==t[4]
+
+
+# acción de fuerza / acción de varios fuerza
+"S-I2-NPN-A":
+  source: N P N
+  target: N P N N, N P A N
+  rule: s[0]==t[0] && s[2]==t[3]
+
+
+# posizionamento di cavi || posizionamento di cavi e di fili
+# effetti dell'alimentazione e dell'accensione /effetti dell'alimentazione
+"S-I1-NPN-PNC":
+  source: N P N
+  target: N P N C P N
+  rule: s[0]==t[0] && s[1]==t[4] && s[2]==t[5]
+
+
+# tipologia e estensione del cavo / tipologia del cavo
+"S-I1-NPN-CN":
+  source: N C N P N
+  target: N P N
+  rule: s[0]==t[0] && s[4]==t[2]
+
+
+
+# Effetti del medicinale  - Effetti del medicinale senza prescrizione
+"S-I2-NPN-NC":
+  source: N P N
+  target: N P N R N
+  rule: s[0]==t[0] && s[2]==t[4]
+
+
+
+
+# Velocità del servizio/velocità del servizio e della qualità
+"S-Ed-NPN-PN":
+  source: N P N
+  target: N P N P N
+  rule: s[0]==t[0] && s[1]==t[3] && s[2]==t[2]
+
+
+# diminuizione della capacità || diminuizione della capacità produttiva
+"S-Ed-NPN-A":
+  source: N P N
+  target: N P N A
+  rule: s[0]==t[0] && s[1]==t[1] && s[2]==t[2]
+
+
+# frammenti di vetro || frammenti di vetro o di plastica
+"S-Ed-NPN-CPN":
+  source: N P N
+  target: N P N C P N
+  rule: s[0]==t[0] && s[1]==t[1] && s[2]==t[2]
+
+
+# Effetti del farmaco - effetti del farmaco e della terapia
+"S-Ed-NPN-CN":
+  source: N P N
+  target: N P N C N
+  rule: s[0]==t[0] && s[1]==t[1] && s[2]==t[2]
+
+
+# effetti della lavorazione e dell'installazione / effetti della lavorazione
+"S-Ed-NPN-CPNA":
+  source: N P N
+  target: N P N C P N A
+  rule: s[0]==t[0] && s[1]==t[1] && s[2]==t[2]
+
+
+
+# verbale di riunione|| rettifica del verbale di riunione 
+"S-Eg-NPN-NP":
+  source: N P N
+  target: N P N P N
+  rule: s[0]==t[2] && s[1]==t[3] && s[2]==t[4]
+
+
+
+
+# insegnamento nell'aula|| insegnamento in aula
+"S-R2I-NPN-P":
+  source: N P N
+  target: N P N
+  rule: s[0]==t[0] && s[2]==t[2]
+
+
+
+# imanes del estator - imanes estatóricos
+"S-R2D-NPN":
+  source: N P N
+  target: N A
+  rule: s[0]==t[0] && s[2].stem==t[1].stem
+
+
+#################################
+#  NPNA/NAPN  #
+#################################
+
+
+"S-I3-NPNA-R":
+  source: N P N A
+  target: N P N R A
+  rule: s[0]==t[0] && s[1]==t[1] && s[2]==t[2] && s[3]==t[4]
+
+
+# efectos de la estela y del parque generador / efectos del parque generador
+"S-I1-NPNA-PNC":
+  source: N P N C P N A
+  target: N P N A
+  rule: s[0]==t[0] && s[5]==t[2] && s[6]==t[3]
+
+
+# diseño y construcción de turbinas eólicas / diseño de turbinas eólicas
+#
+"S-I1-NPNA-CN":
+  source: N C N P N A
+  target: N P N A
+  rule: s[0]==t[0] && s[4]==t[2] && s[5]==t[3]
+
+
+
+# diseño y construcción de turbinas eólicas / construcción de turbinas eólicas
+#
+"S-Eg-NPNA-NC":
+  source: N C N P N A
+  target: N P N A
+  rule: s[2]==t[0] && s[4]==t[2] && s[5]==t[3]
+
+
+
+
+# instalación de parque eólico/instalación parque eólico, velocidad de rotación variable/velocidad rotacional variable
+"S-R2-NPNA":
+  source: N P N A
+  target: N N A, N A A
+  rule: s[0]==t[0] && s[2].stem==t[1].stem && s[3]==t[2]
+
+
+# horas de plena carga/horas de carga plena
+"S-P-NPNA-A":
+  source: N P A N
+  target: N P N A
+  rule: s[0]==t[0] && s[1]==t[1] && s[2]==t[3] && s[3]==t[2]
+
+
+#################################
+#NPNPN    #
+#################################
+
+# velocidad de referencia del viento /velocidad del viento de referencia
+"S-P-NPNPN-PN":
+  source: N P N P N
+  target: N P N P N
+  rule: s[0]==t[0] && s[1]==t[3] && s[2]==t[4] && s[3]==t[1] && s[4]==t[2]
+
+
+#################################
+#NPNPNA    #
+#################################
+
+
+# DOES NOT MATCH ON WIND ENERGY
+"S-I5-NPNPNA-R":
+  source: N P N P N A
+  target: N P N P N R A
+  rule: s[0]==t[0] && s[1]==t[1] && s[2]==t[2] && s[3]==t[3] && s[4]==t[4] && s[5]==t[6]
+
+
+
+#################################
+#    #
+#################################
+
+
+#A verifier
+# aerogenerador/ aerogenerador  con conducto tubular
+"S-Ed-N":
+  source: N
+  target: N P N A
+  rule: s[0]==t[0]
+
+
+#################################
+#  MORPHOLOGICAL  #
+#################################
+
+"M-S-NN":
+  source: N [compound]
+  target: N N
+  rule: t[0]==s[0][0] && t[1]==s[0][1]
+
+
+# DOES NOT MATCH ON WIND ENERGY
+# carcinoma hepatocelular/hepatocarcinoma celular
+"M-P-NEN-E":
+  source: N A
+  target: N A
+  rule: s[1].compound && t[0].compound && s[0]==t[0][1] && s[1][0]==t[0][0] && s[1][1]==t[1]
+
+
+# rare
+"M-A":
+  source: N
+  target: A
+  rule: s[0].stem==t[0].stem
+
+
+
+#################################
+#  PREFIXES  #
+#################################
+
+
+# # DOES NOT MATCH ON WIND ENERGY
+# "M-R-A":
+#   source: A
+#   target: A
+#   rule: t[0].compound && s[0]==t[0][1] && t[0][0] ==("а"||"an"||"ante"||"anti"||"ex"||"in"||"pre"||"re"||"sub"||"trans")
+
+
+
+# DOES NOT MATCH ON WIND ENERGY
+# carcinoma ductal infiltrante/carcinoma intraductal infiltrante
+
+# carcinoma ductal /carcinoma intraductal
+"M-R2-NA":
+  source: N A
+  target: N A
+  rule: t[1].compound && s[0]==t[0] && s[1]==t[1][1] && t[1][0] ==("а"||"an"||"ante"||"anti"||"ex"||"in"||"intra"||"pre"||"re"||"sub"||"trans")
+
+
+"M-R2-NAA":
+  source: N A A
+  target: N A A
+rule: t[1].compound && s[0]==t[0] && s[1]==t[1][1] && t[1][0] ==("а"||"an"||"ante"||"anti"||"ex"||"in"||"intra"||"pre"||"re"||"sub"||"trans") && s[2]==t[2]

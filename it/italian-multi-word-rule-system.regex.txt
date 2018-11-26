@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <entry key="name">TreeTagger's Italian Parameter</entry>
+  <entry key="encoding">utf-8</entry>
+  <entry key="file">italian.par</entry>
+</properties>
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mapping>
+  <map key="ABR" value="abbreviation" />
+  <map key="ADJ" value="adjective" />
+  <map key="ADV" value="adverb" />
+  <map key="CON" value="conjunction"/>
+  <map key="DEF" value=" definite article" />
+  <map key="DET:indef" value="indefinite article" />
+  <map key="FW" value="foreign word" />
+  <map key="LS" value="list symbol" />
+  <map key="INT" value="interjection" />
+  <map key="NPR" value="name" />
+  <map key="NOM" value="noun" />
+  <map key="NUM" value="numeral" />
+  <map key="PRO" value="pronoun" />
+  <map key="PON" value="punctuation" />
+  <map key="PRE" value="preposition" />
+  <map key="PRO:DET" value="preposition+article" />
+  <map key="PRO:demo" value="demonstrative pronoun" />
+  <map key="PRO:indef" value="indefinite pronoun" />
+  <map key="PRO:inter" value="interrogative pronoun" />
+  <map key="PRO:pers" value="personal pronoun" />
+  <map key="PRO:rela" value=" relative pronoun" />
+  <map key="PRO:poss" value=" possessive spronoun" />
+  <map key="PRO:refl" value=" reflexive pronoun" />
+  <map key="SENT" value="sentence marker" />
+  <map key="SYM" value="symbol" />
+  <map key="VER:cond" value="conditional" />
+  <map key="VER:cimp" value="verb conjunctive imperfect" />
+  <map key="VER:futu" value="verb future tense" />
+  <map key="VER:cpre" value="verb conjunctive present"/>
+  <map key="VER:impe" value="verb imperative" />
+  <map key="VER:impf" value="verb imperfect" />
+  <map key="VER:infi" value="verb infinitive" />
+  <map key="VER:pper" value="verb participle perfect" />
+  <map key="VER:ppre" value="verb participle present" />
+  <map key="VER:pres" value="verb present" />
+  <map key="VER:refl:infi" value="verb reflexive infinitive" />
+  <map key="VER:remo" value="verb simple past" />
+</mapping>
+
+ABR	abbreviation
+ADJ	adjective
+ADV	adverb
+CON	conjunction
+DET:def	definite article
+DET:indef	indefinite article
+FW	foreign word
+INT	interjection
+LS	list symbol
+NOM	noun
+NPR	name
+NUM	numeral
+PON	punctuation
+PRE	preposition
+PRE:det	preposition+article
+PRO	pronoun
+PRO:demo	demonstrative pronoun
+PRO:indef	indefinite pronoun
+PRO:inter	interrogative pronoun
+PRO:pers	personal pronoun
+PRO:poss	possessive pronoun
+PRO:refl	reflexive pronoun
+PRO:rela	relative pronoun
+SENT	sentence marker
+SYM	symbol
+VER:cimp	verb conjunctive imperfect
+VER:cond	verb conditional
+VER:cpre	verb conjunctive present
+VER:futu	verb future tense
+VER:geru	verb gerund
+VER:impe	verb imperative
+VER:impf	verb imperfect
+VER:infi	verb infinitive
+VER:pper	verb participle perfect
+VER:ppre	verb participle present
+VER:pres	verb present
+VER:refl:infi	verb reflexive infinitive
+VER:remo	verb simple past
+
+ADJ		adjective
+ADV		adverb (excluding -mente forms)
+ADV:mente	adveb ending in -mente
+ART		article
+ARTPRE		preposition + article
+AUX:fin		finite form of auxiliary
+AUX:fin:cli	finite form of auxiliary with clitic
+AUX:geru	gerundive form of auxiliary
+AUX:geru:cli	gerundive form of auxiliary with clitic
+AUX:infi	infinitival form of auxiliary
+AUX:infi:cli	infinitival form of auxiliary with clitic
+AUX:ppast	past participle of auxiliary
+AUX:ppre	present participle of auxiliary
+CHE		che
+CLI		clitic
+CON		conjunction
+DET:demo	demonstrative determiner
+DET:indef	indefinite determiner
+DET:num		numeral determiner
+DET:poss	possessive determiner
+DET:wh		wh determiner
+NEG		negation
+NOCAT		non-linguistic element
+NOUN		noun
+NPR		proper noun
+NUM		number
+PRE		preposition
+PRO:demo	demonstrative pronoun
+PRO:indef	indefinite pronoun
+PRO:num		numeral pronoun
+PRO:pers	personal pronoun
+PRO:poss	possessive pronoun
+PUN		non-sentence-final punctuation mark
+SENT		sentence-final punctuation mark
+VER2:fin	finite form of modal/causal verb
+VER2:fin:cli	finite form of modal/causal verb with clitic
+VER2:geru	gerundive form of modal/causal verb
+VER2:geru:cli	gerundive form of modal/causal verb with clitic
+VER2:infi	infinitival form of modal/causal verb
+VER2:infi:cli	infinitival form of modal/causal verb with clitic
+VER2:ppast	past participle of modal/causal verb
+VER2:ppre	present participle of modal/causal verb
+VER:fin		finite form of verb
+VER:fin:cli	finite form of verb with clitic
+VER:geru	gerundive form of verb
+VER:geru:cli	gerundive form of verb with clitic
+VER:infi	infinitival form of verb
+VER:infi:cli	infinitival form of verb with clitic
+VER:ppast	past participle of verb
+VER:ppast:cli	past participle of verb with clitic
+VER:ppre	present participle of verb
+WH		wh word
+
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mapping>
+</mapping>
+
+Verbo ausiliare “Essere”: Indicativo  ESSE:IND
+
+Verbo ausiliare “Essere”: Congiuntivo ESSE:SUB
+
+Verbo ausiliare “Essere”: Infinito ESSE:INF
+
+Verbo: Indicativo V:IND Vado
+
+Verbo: Congiuntivo V:SUB Vada
+
+Verbo: Infinito V:INF sapere
+Verbo: Gerundio V:GER sapendo
+Verbo: Gerundivo V:GED passando
+Verbo: Participio V:PTC:nom perfetto
+V:PTC:acc seccante
+V:PTC:abl persuaso
+V:PTC  istituito
+
+Verbo: Supino
+V:SUP:acc morto
+V:SUP:abl ascoltato
+
+Verbo: Imperativo
+V:IMP Fallo
+Pronomi PRON tu
+Pronomi: Relativi REL che
+Possessivi (Pronomi e/o Aggettivi) POSS vostro/i
+Dimostrativi (Pronomi e/o Aggettivi) DIMOS Questo
+Pronomi: Indefiniti INDEF qualcuno
+Nomi
+N:nom tempo
+N:dat a Maria
+N:gen dei luoghi
+N:loc a casa
+N:acc silenzio
+N:abl in assoluto
+N:voc Maria
+Numerali (tutti i tipi)
+ADJ:NUM 3
+Congiunzioni Coordinanti ect
+Congiunzioni Subordinanti ne
+Nomi Propri
+NPR Maria
+Aggettivi
+ADJ
+ADJ:COM
+ADJ:SUP
+ADJ:abl
+Gregorii
+minor
+carissimi
+toto
+Avverbi ADV sempre
+Preposizioni PREP di
+Interiezioni INT cioè
+Abbreviazioni ABBR art/
+Esclamazioni EXCL ecco
+Parole straniere
+FW effatha
+Punteggiatura di fine frase 
+SENT .
+Punteggiatura NON di fine frase
+PUN ,
+Simboli SYM 8.

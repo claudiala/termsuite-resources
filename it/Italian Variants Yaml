@@ -1,0 +1,166 @@
+Italian Variants Yaml
+
+# pale eoliche
+"N+Adj":
+  
+  target: N A 
+
+
+# pale eoliche ausiliari
+"N+Adj+Adj":
+  
+  target: N A A 
+
+# pale eoliche ausiliari idonee
+"N+Adj+Adj+Adj":
+  
+  target: N A A A 
+
+# velocità media ad ampio raggio
+"N+Adj+Pre+Adj+N":
+  
+  target: N A P A N
+
+# velocità media di movimenti circolari
+"N+Adj+CONG+N+Adj":
+  
+  target: N A P N A
+
+# velocità media più elevata 
+"N+Adj+Adv+Adj":
+  
+  target: N A R A
+
+# macchina a motore elettrico
+"N+Pre+N+Adj":
+  
+  target: N P N A  
+
+# Strumenti tecnici necessari
+"N+Adj+Adj":
+  
+  target: N A A
+
+# velocità ulteriormente elevata
+"N+Adv+Adj":
+  
+  target: N R A
+
+# calcolo statistico e matematico
+"N+Adj+CONG+Adj":
+  
+  target: N A C A
+
+# terzo mondo
+"Adj+N":
+  
+  target: A N
+
+# gradevole o sgradevole sensazione
+"Adj+CONG+Adj+N":
+  
+  target: A C A N
+
+# bianco e nero
+"Adj+CONG+Adj":
+  
+  target: A C A 
+
+
+# Abito da sera
+"N+Pre+N":
+  
+  target: N P N 
+
+# Abito lungo da sera
+"N+Adj+Pre+N":
+  
+  target: N A P N
+
+# Macchinario di scarico a motore
+"N+Pre+N+Pre+N":
+  
+  target: N P N P N
+
+# macchina a forza motore
+"N+Pre+N+N":
+  
+  target: N P N N 
+
+# Effetti dei casi limite
+"N+Pre+N+N":
+  
+  target: N P N N 
+
+
+# Protezione dei dati personali
+"N+Pdet+N+Adj":
+  
+  target: N P N A  
+
+
+
+# Effetti del farmaco di base
+"N+Pre+N+Pre+N":
+  
+  target: N P N P N
+
+
+# Effetti del farmaco di base senza prescrizione
+"N+Pre+N+Pre+N+Pre+N":
+  
+  target: N P N P N P N
+
+
+# Effetti del farmaco di base preso senza prescrizione
+"N+Pre+N+Pre+N+V+Pre+N":
+  
+  target: N P N P N V P N
+
+
+# bianco come latte
+"Adj+Adv+Det+N":
+  
+  target: A R D N
+
+
+# caso limite 
+"N+N":
+  
+  target: N N
+
+
+# vincere meritevolmente
+"V+Adv":
+  
+  target: N R
+
+
+# Avere fame
+"V+N":
+  
+  target: V N    
+
+
+# Vincere la paura da palcoscenico
+"V+Det+N+Pre+N":
+  
+  target: V D N P N
+
+
+# Combattere una guerra
+"V+Art+N":
+
+  target: V Art N
+
+
+# accuratamente selezionato
+"Adv+Adj":
+  
+  target: R A
+
+
+# pale eoliche
+"N+Adj":
+  
+  target: N A  

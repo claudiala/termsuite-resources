@@ -1,0 +1,532 @@
+
+302 lines (301 sloc)  3.09 KB
+# [greek:aero]
+aeroro-
+# [greek:agro]
+agro-
+# [greek:algie]
+algo-
+-algia
+-algie
+# [greek:allo]
+allo-
+# [greek:anthropos]
+antropo-
+-antropo
+# [greek:anemo]
+anemo-
+# [greek:archeo]
+archeo-
+-archia
+-archi
+# [greek:auto]
+auto-
+# [greek:bio]
+bio-
+-bie
+-bia
+# [greek:cardio]
+cardio-
+-cardiaco
+-cardiaci
+# [greek:cephalo]
+cefalo-
+-cefalo
+-cefale
+-cefalie
+-cefalite
+# [greek:chromato]
+cromato-
+-cromo
+-crome
+-cromia
+# [greek:chrono]
+crono-
+# -crono
+-cronico
+# [greek:cinema]
+cinema-
+cinemato-
+# [greek:cosmo]
+cosmo-
+-cosmico
+-cosmo
+# [greek:crate]
+crate-
+-crate
+-cratico
+-cratici
+-cratiche
+-cratica
+# [greek:crypto]
+cripto-
+# [greek:cyclo]
+ciclo-
+-ciclo
+-ciclico
+-ciclici
+-ciclica
+-cicliche
+# [greek:dactylo]
+dattilo-
+-dattilo
+# [greek:deca]
+deca-
+# [greek:demo]
+demo-
+# [greek:electro]
+elettro-
+-elettronico
+-elettroniche
+-elettronici
+-elettronica
+# [greek:game]
+-game
+-gamia
+# [greek:geno]
+geno-
+-gene
+# [greek:geo]
+geo-
+# [greek:gonio]
+gonio-
+-gono
+-gona
+-gonio
+-goni
+-gone
+-gona
+# [greek:gram]
+-grammo
+grammo-
+grammi-
+-grammi
+-gramma
+# [greek:grapho]
+grafo-
+-grafe
+-grafi
+-grafa
+-grafia
+-grafie
+-grafici
+-grafica
+-grafiche
+-grafica
+-grafico
+# [greek:hecto]
+etto-
+etti-
+etta-
+-etto
+-etti
+-etta
+-ette
+# [greek:helio]
+elio-
+-elio
+-elia
+-eli
+-elie
+-elico
+-elici
+-eliche
+-elica
+# [greek:hemato]
+emato-
+emo-
+-emie
+-emia
+-emio
+# [greek:hetero]
+etero-
+-etero
+# [greek:hippo]
+ippo-
+# [greek:histo]
+istio-
+isto-
+-isto
+-istio
+# [greek:homo]
+omeo-
+omo-
+-omia
+-omie
+-omi
+# [greek:hydro]
+idro-
+-idrici
+-idrico
+-idriche
+-idrica
+-idria
+# [greek:iatre]
+-iatra
+-iatri
+-iatrici
+-iatrico
+-iatriche
+-iatrica
+-iatre
+-iatri
+# [greek:ide]
+ideo-
+idea-
+-ide
+-ideo
+-idea
+-idee
+# [greek:iso]
+iso-
+-isa
+-iso
+# [greek:kilo]
+kilo-
+chilo-
+-chilo
+-chile
+-chili
+# [greek:latre]
+-latre
+-latria
+-latrie
+-latri
+# [greek:leuc]
+leuc-
+leuco-
+-leuca
+-leuco
+# [greek:lipo]
+lipo-
+-lipo
+# [greek:litho]
+lito-
+litu-
+lite-
+-lite
+-lita
+-liti
+# [greek:logo]
+logo-
+-logo
+-loghe
+-loga
+-loghi
+# [greek:logie]
+-logia
+-logie
+-logi
+# [greek:lyse]
+-lisa
+-lisi
+-liso
+-lise
+# [greek:macro]
+macro-
+# [greek:mane]
+-mane
+-mania
+-manie
+# [greek:mega]
+mega-
+megalo-
+# [greek:metro]
+metro-
+metra-
+-metra
+-metro
+-metri
+-metre
+-metria
+-metrici
+-metrico
+-metrica
+-metriche
+# [greek:micro]
+micro-
+# [greek:mono]
+mono-
+# [greek:morpho]
+morfo-
+-morfe
+-morfa
+-morfi
+-morfici
+-morfico
+-morfiche
+-morfica
+# [greek:neo]
+neo-
+# [greek:neuro]
+neuro-
+nevro-
+nevr-
+-neuria
+# [greek:nome]
+nome-
+-nomie
+-nomia
+-nomea
+# [greek:onyme]
+-onime
+-onima
+-onimo
+-onimi
+-onimie
+-onimia
+# [greek:ophtalmo]
+oftalmo-
+# [greek:ortho]
+orto-
+-orto
+-orto
+# [greek:ostéo]
+osteo-
+-ostia
+-ostico
+-ostici
+-ostica
+-ostiche
+-ostica
+# [greek:pan]
+pan-
+panto-
+# [greek:patho]
+pato-
+-pate
+-patia
+-pati
+-patici
+-patico
+-patiche
+-patica
+-patie
+# [greek:pedo]
+ped-
+pedo-
+-pedie
+-pede
+-pedia
+# [greek:phago]
+fago-
+-fagia
+-faghe
+-fago
+-faghi
+# [greek:phil]
+fil-
+filo-
+-file
+-fila
+-filia
+-filie
+-filici
+-filica
+-filiche
+-filico
+-folio
+# [greek:phobe]
+-fobe
+-foba
+-fobico
+-fobici
+-fobica
+-fobiche
+-fobia
+-fobie
+# [greek:phone]
+fon-
+fono-
+-fone
+-fonie
+-fonia
+-fono
+-foni
+-fonico
+-fonici
+-foniche
+-fonica
+# [greek:photo]
+foto-
+# [greek:physio]
+fisio-
+-fisia
+-fisie
+# [greek:podo]
+podo-
+-pode
+-poda
+-podi
+-podo
+# [greek:pole]
+-pole
+-poli
+-polia
+-polie
+# [greek:poly]
+poli-
+# [greek:proto]
+prot-
+proto-
+# [greek:pseudo]
+pseud-
+pseudo-
+# [greek:psycho]
+psich-
+psico-
+# [greek:pyro]
+piro-
+-piro
+-piri
+# [greek:scaph]
+scaf-
+-scafie
+-scafia
+-scafo
+-scafi
+# [greek:scope]
+-scope
+-scopie
+-scopia
+-scopo
+-scopi
+-scopio
+-scopici
+-scopica
+-scopiche
+-scopico
+# [greek:techno]
+tecno-
+-tecnia
+-tecnica
+-tecnici
+-tecnico
+-tecniche
+# [greek:tele]
+tele-
+tel-
+-tele
+-telia
+-telie
+# [greek:theque]
+-teca
+-teche
+# [greek:therapie]
+-terapie
+-terapia
+terapo-
+# [greek:thermo]
+termo-
+-terme
+-termia
+-termie
+# [greek:tomie]
+-tomie
+-tomia
+# [greek:topo]
+topo-
+-topa
+-topo
+-topia
+-topie
+-topici
+-topiche
+-topica
+-topiche
+-topico
+# [greek:typo]
+tipo-
+-tipo
+-tapia
+# [greek:zoo]
+zoo-
+# [latin:agri]
+agri-
+# [latin:calori]
+calori-
+calor-
+# [latin:centi]
+centi-
+cent-
+# [latin:cide]
+-cida
+-cide
+-cidi
+-cido
+# [latin:cole]
+-cola
+-cole
+-colo
+-coli
+# [latin:deci]
+deci-
+deca-
+deco-
+# [latin:fere]
+-fera
+-fero
+-feri
+-feria
+# [latin:fique]
+-fica
+-fico
+-fici
+-fiche
+# [latin:forme]
+-forme
+-formia
+-formie
+# [latin:fuge]
+-fugo
+-fuga
+-fughi
+-fughe
+# [latin:grade]
+-grade
+-grado
+# [latin:maxi]
+maxi-
+massi-
+# [latin:milli]
+milli-
+mille-
+-milla
+-mille
+# [latin:mini]
+mini-
+-minia
+-minie
+# [latin:multi]
+multi-
+# [latin:omni]
+omni-
+# [latin:ovi]
+ovi-
+ovo-
+-ovia
+-ovie
+# [latin:pare]
+-pare
+-pari
+pari-
+par-
+# [latin:pedi]
+pedi-
+-pede
+-pedia
+-pedie
+-pedico
+-pediche
+-pedica
+-pedici
+# [latin:pluri]
+pluri-
+# [latin:radio]
+radio-
+# [latin:uni]
+uni-
+# [latin:vore]
+-vore
+-vora
+© 2018 GitHub, Inc.

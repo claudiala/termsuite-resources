@@ -1,0 +1,24 @@
+- INFLECTION
+
+ico, ; fantastico -fantast
+ica, ; fantastica -fantast
+ici, ; fantastici -fantast
+iche,; fantastiche -fantast
+ice; ; semplice -sempl
+ali, ; generali -gener
+ale, ; generale -gener
+ala, ; koala -ko
+ente; dormiente -dorm
+enti; dormienti -dorm
+
+
+ichi, ; bad lemmatisation
+ichi, ; bad lemmatisation
+enta, ; bad lemmatisation
+
+
+o, ; frutto -frutt
+a, ; frutta -frutt
+i, ; frutti -frutt
+e, ; apice -apic
+à, ; città -citt
